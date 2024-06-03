@@ -1,6 +1,6 @@
 //The file from which any data can be fetched
 
-import { configureStore } from "@reduxjs/toolkit";
+import { configureStore } from "@reduxjs/toolkit"; //
 
 //Importing rootreducer because all reducers of the project are stored in root reducer
 import rootReducer from "./rootReducer";
