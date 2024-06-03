@@ -33,7 +33,7 @@ const ProductWrapper = ({navigation}) => {
     ]
 
     return (
-        <View style={{ flex: 1 }}>
+        <View style={{ flex: 1,backgroundColor:'#000' }}>
             <Button title="Go to User List" onPress={() => navigation.navigate("User")} />
             <Header />
             <ScrollView>

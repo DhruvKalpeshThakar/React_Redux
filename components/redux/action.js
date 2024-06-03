@@ -1,4 +1,4 @@
-import { ADD_TO_CART, REMOVE_FROM_CART } from '../redux/constants'
+import { ADD_TO_CART, REMOVE_FROM_CART,USER_LIST } from '../redux/constants'
 
 
 //addtoCart Function with the type and data 
@@ -16,3 +16,9 @@ export function removefromCart(item) {
         data: item
     }
 }
+
+// export function getUserList() {
+//     return {
+//       type: USER_LIST,
+//     };
+//   }
